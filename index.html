@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pong v1</title>
+        <meta name="theme-color" content="#cc9e0a">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="https://slypeog.com/img/index_aboutme.png">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="classes.js"></script>
+        <style media="screen">
+            * {margin: 0; padding: 0; box-sizing: border-box;}
+            body {
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+                background-color: #3d3d3d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                user-select: none;
+            }
+
+            #container {
+                width: fit-content;
+                height: fit-content;
+                padding-top: 10px;
+            }
+
+            canvas {
+                box-shadow: 0 0 2px white;
+            }
+
+            #textBlock {
+                width: 100%;
+                color: white;
+                font-family: monospace;
+                text-align: center;
+                margin-top: 10px;
+                line-height: 20px;
+            }
+
+            b {
+                color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+
+        </div>
+        <p id="textBlock">Left paddle: <b>W / S</b><br>Right paddle: <b>O / L</b><br><b>Spacebar</b> to pause/unpause.</p>
+    </body>
+</html>
